@@ -1,0 +1,38 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.project-tile {
+  background-color: #1e1e1e;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+.project-tile:hover {
+  background-color: #2a2a2a;
+}
+.project-tile img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+.project-tile h2 {
+  margin-top: 15px;
+  color: #00bcd4;
+}
+.project-tile p {
+  color: #cccccc;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
